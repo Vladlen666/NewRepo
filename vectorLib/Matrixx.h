@@ -6,7 +6,6 @@ template <class Type>
 class TMatrix : public TVector<TVector<Type>>
 {
 protected:
-
   int width;
 public:
   TMatrix();
